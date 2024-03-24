@@ -1,0 +1,212 @@
+
+#register_username,#register_email,#register_password{
+width: 50;
+border: solid;
+margin: 1 30;
+align: center middle;
+
+content-align: center middle;
+}
+
+
+#register_register,#register_reset,#register_exit{
+  color:white;
+   background: blue;
+  border: round white;
+
+  }
+
+.bluee{
+color:blue;
+}
+.greener{
+color:green;
+}
+.reder{
+color:red;
+}
+
+Arrange30{
+
+   layout: grid;
+    grid-size: 6;
+    grid-gutter: 1;
+}
+
+Arranger
+{
+
+   layout: grid;
+    grid-size: 6;
+    grid-gutter: 1;
+}
+
+
+UserDisplay,ProgressDisplay,Who2,Prog,HabitRow {
+    content-align: center middle;
+    text-opacity: 60%;
+    height: 3;
+}
+
+SignIn,Header1,Header2,Header3
+{
+    content-align: center middle;
+    text-opacity: 60%;
+    height: 3;
+}
+
+
+
+Header {
+  dock: top;
+  height: 3;
+  content-align: center middle;
+  background: blue;
+  color: white;
+}
+
+/*
+login window end
+*/
+
+#login_email{
+width: 50;
+border: solid;
+margin: 1 30;
+align: center middle;
+
+content-align: center middle;
+}
+#login_password{
+width: 50;
+border: solid;
+margin: 1 30;
+}
+#login_loginbut,#stop_habit_{
+  color:white;
+   background: blue;
+  border: round white;
+
+  }
+
+  #login_loginreset,#cancel_stop_habit_
+  {
+  color:white;
+   background: black;
+  border: round white;
+  }
+
+  Horizontal
+  {
+
+    height: 5;
+    margin: 1 30;
+    min-width: 50;
+    padding: 1 5;
+    content-align: center middle;
+  }
+
+#login_noaact
+{
+  color:white;
+   background: blue;
+  border: round white;
+
+  }
+
+/*
+login window end
+*/
+
+/*
+create habit window start
+*/
+Screen {
+    align: center top;
+}
+
+#freq,#days {
+    padding: 1;
+        border: solid $accent;
+        width: 1fr;
+        height: 8;
+        padding:1 1;
+        margin: 1;
+}
+
+#task{
+width: 50;
+border: solid;
+margin: 1 30;
+align: center middle;
+
+content-align: center middle;
+}
+
+/*
+create habit window end
+*/
+.hidee {
+
+    visibility: hidden
+
+}
+.showw {
+
+    display: block;
+}
+#createhabit_but{
+  color:white;
+   background: blue;
+  border: round white;
+
+  }
+
+  #createhabit_reset
+  {
+  color:white;
+   background: black;
+  border: round white;
+  }
+
+Creathabit
+{
+    content-align: center middle;
+    text-opacity: 60%;
+    height: 3;
+}
+
+/*
+createhabit_modal starts
+*/
+
+QuitScreen {
+    align: center middle;
+}
+
+#dialog {
+    grid-size: 2;
+    grid-gutter: 1 2;
+    grid-rows: 1fr 3;
+    padding: 0 1;
+    width: 60;
+    height: 11;
+    border: thick $background 80%;
+    background: $surface;
+}
+
+#question {
+    column-span: 2;
+    height: 1fr;
+    width: 1fr;
+    content-align: center middle;
+}
+
+#exit_create,#createanother_habit {
+    width: 100%;
+}
+
+/*
+createhabit_modal ends
+*/
+
