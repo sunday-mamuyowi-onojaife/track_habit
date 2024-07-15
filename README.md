@@ -13,4 +13,4 @@ C:\[appFolder]>python habit_gui.py <Enter>
 This command starts the app and all functionality can be used.
 
 Note:
-The database need to be set up first before the app is started from the command line. 
+The database need to be set up first before the app is started from the command line or command prompt. 
