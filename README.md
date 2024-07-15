@@ -1,6 +1,7 @@
-To set up the database that the habit tracking app gets it's data from and sends it's data to, the database needs to be created with some pre-populated data. Amongst the data is a 4 week data for a user with username karpov and email karpov@gmail.com, subsequently,users can be added as needed.
-Accompanying the files,is a file called habit_tracker_database.sql, that need to be imported into MySQL DBMS to set up the data needed to assist log in into the App.
+							                                     	HOW TO RUN THE HABIT TRACKER APP
+The database need to be set up first, for the app to come up in the first place, else it will hang the cursor in the command line. In the MySql DBMS, a database is named habit_tracker, then the accompanying SQL file called habit_tracker_database.sql is imported whilst we are in the empty database we created, this import allows us to prepopulate the empty database with our data.
 
+Amongst the data is a 4 weeks data for a user with username karpov, email karpov@gmail.com and password karpov.
 The habit.py,habitapi.py,habitdb.py,user.py are use to model the user and the user's habit and more so the habitdb.py represents the app's interaction with the underlying DBMS (database). The habitapi.py acts as the interface that make it easy for the model to be used by it's clients i.e. the Graphical User Interface classes that was built.
 
 The graphical user interface was built using python cli module called Textual. With textual the user interface was crafted as widget that lives on the command line interface.
