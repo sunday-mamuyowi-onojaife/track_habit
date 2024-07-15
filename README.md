@@ -1,4 +1,4 @@
-							                                     	HOW TO RUN THE HABIT TRACKER APP
+							HOW TO RUN THE HABIT TRACKER APP
 The database need to be set up first, for the app to come up in the first place, else it will hang the cursor in the command line. In the MySql DBMS, a database is named habit_tracker, then the accompanying SQL file called habit_tracker_database.sql is imported whilst we are in the empty database we created, this import allows us to prepopulate the empty database with our data.
 
 Amongst the data is a 4 weeks data for a user with username karpov, email karpov@gmail.com and password karpov.
